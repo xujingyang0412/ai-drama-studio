@@ -18,7 +18,7 @@ AI Drama Studio 是一个开源的 AI 短剧生成工具，输入一句话描述
 ### 安装
 
 ```bash
-git clone https://github.com/xujingyang0412/ai-drama-studio.git
+git clone https://github.com/ai-drama-tools/ai-drama-studio.git
 cd ai-drama-studio
 pip install -r requirements.txt
 ```
@@ -86,7 +86,6 @@ ai-drama-studio/
 ├── core/
 │   ├── __init__.py
 │   ├── script_gen.py    # 剧本生成
-│   ├── storyboards.py   # 分镜生成
 │   ├── image_gen.py     # 画面生成
 │   ├── voice_gen.py     # 语音合成
 │   ├── video_edit.py    # 视频剪辑
